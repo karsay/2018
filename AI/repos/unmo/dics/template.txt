@@ -1,0 +1,13 @@
+1	%noun%だよ
+1	%noun%たべた？
+1	%noun%にだいじだね
+1	%noun%にしてるものってある？
+1	%noun%を食べました
+1	%noun%が痛いよ
+1	ちょっと%noun%言ってるかわからない
+1	%noun%かえしただけじゃん
+1	%noun%あるんだ
+2	%noun%は%noun%だね
+2	%noun%の%noun%かな？
+2	%noun%に%noun%だよ
+3	%noun%か%noun%な%noun%ってある？

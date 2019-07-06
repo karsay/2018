@@ -1,0 +1,143 @@
+html,body
+{
+    /* height: 2000px; */
+    margin: 0 auto;
+    background-color: rgb(0, 0, 40);
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+    -webkit-appearance: none;
+    -webkit-text-size-adjust: 100%;
+}
+.red
+{
+    color: orange;
+    font-size: 1.8vh;
+}
+#bg
+{
+    background: url(../images/0.jpg) no-repeat;
+    background-size: cover; 
+    background-position: center center;
+    position: relative;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+#bg::before
+{
+    background-color: rgba(0,0,40,0.7);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: ' ';
+}
+.container-fluid
+{
+    position: relative;
+    /* border: 1px solid red; */
+
+}
+.container-fluid > #new-post
+{
+    border-bottom: 1px solid #FFF;
+    padding-bottom: 5px;
+    font-size: 2em;
+}
+.card
+{
+    margin-top: 10px;
+    border-radius: 10px;
+    color: black;
+}
+.card-img-top{
+    border-radius: 10px;
+}
+
+.cp_imghover
+{
+    overflow: hidden;
+    cursor: pointer;
+}
+.cp_zoomin img
+{
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.card a{
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    color: black;
+    text-decoration: none;
+}
+.card a:hover{
+    color: orange;
+}
+.cp_zoomin:hover img {
+    opacity: 0.5;
+}
+@media (min-width:768px)
+{
+    #bg
+    {
+        height:200vh;
+    }
+    .window
+    {
+        position: absolute;
+        top: 12%;
+        left: 50%;
+        width: 80vh;
+        height: 60vh;
+        position: relative; 
+        opacity: 0.9;
+    }
+    .window::after
+    {
+        background-color: rgba(0,0,40,0.7);
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        content: ' ';
+        border-radius: 10px;
+        height: 90%;
+    }
+    .window > figcaption
+    {
+        position: absolute;
+        bottom: 10%;
+        left: 0;
+        right: 0;
+        background: rgba(0,0,0,0.5);
+        color: white;
+        padding: 30px 20px;
+        z-index: 100;
+        font-size: 1.5vh;
+    }
+    .container-fluid
+    {
+        top: 40vh;
+        width: 70%;
+        margin-top: 1vh;
+    }
+}
+
+
+@media(max-width:768px)
+{
+    #bg
+    {
+        height: 100%;
+    }
+    .window
+    {
+        display: none;
+    }    
+    .container-fluid
+    {
+        width: 100%;
+    }
+}

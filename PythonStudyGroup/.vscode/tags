@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+0list.py	../0list.py	1;"	kind:file	line:1
+1web.py	../1web.py	1;"	kind:file	line:1
+2plot.py	../2plot.py	1;"	kind:file	line:1
+3webplot.py	../3webplot.py	1;"	kind:file	line:1
+4csv.py	../4csv.py	1;"	kind:file	line:1
+5cf.py	../5cf.py	1;"	kind:file	line:1
+bs4	../1web.py	/^import bs4$/;"	kind:namespace	line:3
+bs4	../3webplot.py	/^import bs4$/;"	kind:namespace	line:3
+csv	../4csv.py	/^import csv$/;"	kind:namespace	line:3
+csv	../5cf.py	/^import csv$/;"	kind:namespace	line:3
+day	../3webplot.py	/^	day = e.find_all("font", {"class": "maxtemp"})$/;"	kind:variable	line:15
+days	../3webplot.py	/^days = soup.find_all(attrs={"class": ["weekday", "sunday", "satday"]})$/;"	kind:variable	line:20
+fruits	../0list.py	/^fruits = ['りんご', 'ぶどう', 'ばなな']$/;"	kind:variable	line:2
+getData	../4csv.py	/^def getData():$/;"	kind:function	line:5
+getData	../5cf.py	/^def getData():$/;"	kind:function	line:5
+getSimDistance	../5cf.py	/^def getSimDistance(data1, data2):$/;"	kind:function	line:14
+html	../1web.py	/^html = request.urlopen(url).read()$/;"	kind:variable	line:6
+html	../3webplot.py	/^html = request.urlopen(url).read()$/;"	kind:variable	line:7
+np	../2plot.py	/^import numpy as np$/;"	kind:namespace	line:2
+pyplot	../2plot.py	/^from matplotlib import pyplot$/;"	kind:namespace	line:3
+pyplot	../3webplot.py	/^from matplotlib import pyplot$/;"	kind:namespace	line:4
+pyplot	../4csv.py	/^from matplotlib import pyplot$/;"	kind:namespace	line:2
+request	../1web.py	/^from urllib import request$/;"	kind:namespace	line:2
+request	../3webplot.py	/^from urllib import request$/;"	kind:namespace	line:2
+res	../1web.py	/^res = soup.find_all(attrs={"class": "maxtemp"})$/;"	kind:variable	line:9
+rows	../4csv.py	/^rows = getData()$/;"	kind:variable	line:14
+rows	../5cf.py	/^rows = getData()$/;"	kind:variable	line:36
+soup	../1web.py	/^soup = bs4.BeautifulSoup(html, "html.parser")$/;"	kind:variable	line:8
+soup	../3webplot.py	/^soup = bs4.BeautifulSoup(html, "html.parser")$/;"	kind:variable	line:9
+sqrt	../5cf.py	/^from math import sqrt$/;"	kind:namespace	line:2
+tds	../3webplot.py	/^tds = soup.find_all("td", {"class": "for"})$/;"	kind:variable	line:12
+url	../1web.py	/^url = "http:\/\/www.jma.go.jp\/jp\/week\/328.html"$/;"	kind:variable	line:5
+url	../3webplot.py	/^url = "http:\/\/www.jma.go.jp\/jp\/week\/328.html"$/;"	kind:variable	line:6
+user1	../5cf.py	/^user1 = rows[0]$/;"	kind:variable	line:39
+user2	../5cf.py	/^user2 = rows[1]$/;"	kind:variable	line:42
+x	../3webplot.py	/^x = []$/;"	kind:variable	line:19
+x	../4csv.py	/^	x = rows[i][1]					# グリーンカレー$/;"	kind:variable	line:20
+xs	../4csv.py	/^xs = []$/;"	kind:variable	line:17
+y	../3webplot.py	/^y = []$/;"	kind:variable	line:11
+y	../4csv.py	/^	y = rows[i][2]					# 杏仁豆腐$/;"	kind:variable	line:21
+ys	../4csv.py	/^ys = []$/;"	kind:variable	line:18
